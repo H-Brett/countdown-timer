@@ -43,6 +43,8 @@ body, html {
 }
 
 .icon {
+    height: 32px;
+    width: 32px;
     margin-left: 15px;
     margin-right: 15px;
     color: hsl(237, 18%, 59%);
