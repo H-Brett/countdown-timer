@@ -44,7 +44,7 @@ body, html {
     justify-content: center;
     border-radius: 20px;
     margin: 0px 20px;
-    background: grey;
+    background: hsl(236, 21%, 26%);
     font-size: 100px;
     color: hsl(345, 95%, 68%);
 }
@@ -53,11 +53,11 @@ body, html {
     z-index: 10;
     margin: 0px 20px;
     position: absolute;
-    border-bottom: 3px solid hsla(234, 17%, 12%, 0.5);
+    border-bottom: 3px solid hsla(234, 17%, 12%, 0.8);
     border-radius: 20px 20px 0px 0px;
     width: 150px;
     height: 75px;
-    background: rgba(0, 0, 0, 0.3);
+    background: hsla(234, 17%, 12%, 0.5);
 }
 
 .footer {
