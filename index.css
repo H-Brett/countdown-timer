@@ -36,6 +36,7 @@ body, html {
 }
 
 .countdown .timer {
+    position: relative;
     width: 150px;
     height: 150px;
     display: flex;
@@ -46,6 +47,17 @@ body, html {
     background: grey;
     font-size: 100px;
     color: hsl(345, 95%, 68%);
+}
+
+.top {
+    z-index: 10;
+    margin: 0px 20px;
+    position: absolute;
+    border-bottom: 3px solid hsla(234, 17%, 12%, 0.5);
+    border-radius: 20px 20px 0px 0px;
+    width: 150px;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .footer {
