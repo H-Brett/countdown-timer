@@ -1,6 +1,6 @@
 let [ day, hour, min, sec ] = document.querySelectorAll('.timer'); 
 
-setInterval( () => {
+let ctdwn = setInterval( () => {
     sec.innerText -= 1;
 
     if(sec.innerText < 0) {
@@ -15,5 +15,4 @@ setInterval( () => {
             }
         }
     }
-
 }, 1000)
